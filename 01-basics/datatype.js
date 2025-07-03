@@ -9,10 +9,14 @@ console.log("Mahrosh kli")
 //boolean =either true / false
 //undefined =  a variable declared but not assigned a value
 //null = no value (standalone)
-//symbol = in ES6
+//symbol = in ES6 uniqueness and figma tools
 
 //non-primitive --> directly stored in memory
 //object = colection of keys & values like: ({ name : "kli"})
 //array = ordered lists of values e.g. [1,"two" ,{}]
 //function : callable blocks of code
 //builtin object type = such as date ,err(standard err , type err , range err) and regexp(patterns for matching text)
+
+console.log(typeof "Mahrosh");
+console.log(typeof null); // obj
+console.log(typeof undefined); //undefined
