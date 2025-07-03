@@ -20,4 +20,29 @@ console.log("Mahrosh Kli")
 // arr.push(3);  // ✅ Allowed
 // arr = [4, 5]; // ❌ Error
 
+//Redeclaring in const is allowed in new block scopes
+//   const x = 1;
+// {
+//   const x = 2;  // ✅ Allowed — this 'x' is inside a     inner block
+//   console.log(x); // 2
+// }
 
+// console.log(x); // 1
+
+//var --> global scoped , redeclared , reassigned 
+const accountId = 145678;
+let accountEmail = "amnaenterpenure@gmail.com";
+var accountPassword = "millionare100";
+
+accountCity = "Sargodha"
+
+accountEmail = "ahdev@gmail.com"
+accountCity = "lahore"
+accountPassword = "cato"
+let accountstandard; //it will be undefined 
+
+console.table([accountCity,accountEmail,accountId,accountPassword , accountstandard]);
+ /*
+prefer not to use var 
+because of issue in block scope and functional scope
+ */
