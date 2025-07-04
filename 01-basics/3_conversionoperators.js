@@ -1,5 +1,5 @@
 //conversions
-
+//1-conversion numbers
 let score = "32abc";
 console.log(typeof score) //string
 
@@ -14,6 +14,7 @@ console.log(valueInNumber) //now it will be NaN
 //"33abc" = NaN
 //true = 1 , false = 0
 
+//2. conversion boolean
 let isLoggedIn = "kli"
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 console.log(booleanIsLoggedIn) //output:true
@@ -22,3 +23,10 @@ console.log(booleanIsLoggedIn) //output:true
 //1 => true , 0 => false
 //"" => false
 //"kli" => true
+
+//3.conversion string
+
+let aNumber = 45;
+let stringNumber = String (aNumber)
+console.log(stringNumber)//output :45
+console.log(typeof stringNumber)//output:string
