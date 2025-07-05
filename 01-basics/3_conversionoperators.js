@@ -12,7 +12,9 @@ console.log(valueInNumber) //now it will be NaN
 //conclusion:
 //"33" = 33
 //"33abc" = NaN
-//true = 1 , false = 0
+//true = 1 
+//undefined = NaN 
+//null or false = +0
 
 //2. conversion boolean
 let isLoggedIn = "kli"
@@ -21,8 +23,8 @@ console.log(booleanIsLoggedIn) //output:true
 
 //conclusion:
 //1 => true , 0 => false
-//"" => false
-//"kli" => true
+//false for : null , +0 ,-0 , NaN , ""
+//true for : everything else
 
 //3.conversion string
 
