@@ -25,5 +25,7 @@ console.log(typeof arr) //object
 let myFunction = function () {
     console.log("Hello World")
 } 
-console.log(typeof myFunction) //function
+console.log(typeof myFunction) //function 
+
+
 
