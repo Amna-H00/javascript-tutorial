@@ -36,9 +36,19 @@ console.log(typeof myFunction) //function
 
  anotherName = "ahdev"
 
- console.log(myYoutubeid);
- console.log(anotherName);
- 
+//  console.log(myYoutubeid);
+ console.log(anotherName); //this is called stack (gives copy)
+
+ let userOne = {
+    name : "Mahrosh" ,
+    code : "4567"
+ }
+ let userTwo = userOne;
+
+ userTwo.name= "Zohaib";
+
+ console.log(userOne);
+ console.log(userTwo); //this is heap memory (gives reference)
  
 
 
