@@ -30,6 +30,8 @@ const newStr = "    klios"
 console.log(newStr)
 console.log(newStr.trim()) //will ignore extra spaces   
 
+const 
+
 
 
 
