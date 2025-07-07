@@ -30,8 +30,12 @@ const newStr = "    klios"
 console.log(newStr)
 console.log(newStr.trim()) //will ignore extra spaces   
 
-const 
 
+const url = " Mharosh%20@gmail.com"
+
+console.log(url.replace('%20' , '-))//replaces with someother word 
+console.log(url.includes('su'))
+console.log(url.includes('sunam'))
 
 
 
