@@ -28,4 +28,18 @@ let myFunction = function () {
 console.log(typeof myFunction) //function 
 
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+// Stack (primitive) & Heap (non-primitive)
+ let myYoutubeid = "amnaenterpenure@gmail.com"
+
+ let anotherName = myYoutubeid;
+
+ anotherName = "ahdev"
+
+ console.log(myYoutubeid);
+ console.log(anotherName);
+ 
+ 
+
+
 
