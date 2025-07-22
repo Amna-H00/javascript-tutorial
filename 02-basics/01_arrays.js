@@ -39,5 +39,8 @@ console.log(arr3)
 console.log(Array.from([1, 2, 3], (x) => x + x)); //use of arrow function
 
 
+// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
- 
+//  Methods Of Array : 
+//1- Mutators (which changes array)
+//(a) - push():
