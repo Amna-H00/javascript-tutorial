@@ -56,3 +56,8 @@ console.log(mycreatedDate.toLocaleString());
 
 // getTimezoneOffset() – Difference from UTC in minute
 
+//examples:
+let new1 = new Date ();
+console.log(new1)
+console.log(new1.getMonth()+1);
+console.log(new1.getDay());
