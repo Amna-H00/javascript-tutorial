@@ -43,4 +43,9 @@ console.log(Array.from([1, 2, 3], (x) => x + x)); //use of arrow function
 
 //  Methods Of Array : 
 //1- Mutators (which changes array)
-//(a) - push():
+//(a) - push(): adds to end , returns new length.
+// const array = [1,2,3];
+  const arr = array.push(4,5)
+console.log(arr)
+console.log(array);
+//b  - pop() : removes last element
