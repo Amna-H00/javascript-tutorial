@@ -24,7 +24,7 @@ console.log(c)
 
 console.log(Array.of(7));  // [7]
 console.log(Array(7)) ;  // array of 7 empty slots
-
+ 
 console.log(Array.of(1,2,34,4))
 
 //4 Array.from() : creates iterable objects , creytes anew array syntax:  Array.from(items, mapFn, thisArg)
