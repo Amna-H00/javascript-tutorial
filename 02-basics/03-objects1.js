@@ -43,7 +43,3 @@ user.greetingtwo = function (){
 console.log(user.greeting()) //[Function (anonymous)]
 console.log(user.greetingtwo())
 
-
-
-
- 
