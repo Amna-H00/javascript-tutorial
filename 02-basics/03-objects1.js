@@ -9,24 +9,41 @@ let user = {
       "full name" : "Alice choudhary",
       age : 21,
       email : "coder@gmail.com",
-      [mysym] : "mykey1",
+      [mysym] : "mykey1", //for representing symbol : use []
       LoggedIn : false
      
 }
-console.log(user["full name"])
-console.log(user["name"])
-console.log(user.age);
-console.log(user.mysym)
-console.log(typeof  user.mysym)
-console.log(user[mysym])
+//there are few cases in which we use this type of console
+// console.log(user["full name"])
+// console.log(user["name"])
+// console.log(user.age);
+// console.log(user.mysym)
+// console.log(typeof  user.mysym)
+// console.log(user[mysym])
 
 //for changing & locking obj value:
 user.email ="codermicrosoft@gmail.com"
-console.log(user.email)
+//console.log(user.email)
 
-Object.freeze(user);
+//Object.freeze(user);
 user.email = "codergoogle.com"
-console.log(user)
+//console.log(user);
+
+
+//creating function with obj
+
+user.greeting = function (){
+      console.log("Hello JS User")
+
+}
+user.greetingtwo = function (){
+      console.log(`Hello JS User , ${this.name}`)
+
+}
+console.log(user.greeting()) //[Function (anonymous)]
+console.log(user.greetingtwo())
+
+
 
 
  
