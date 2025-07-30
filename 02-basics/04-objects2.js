@@ -71,3 +71,5 @@ const objectu = {...obj1 , ...anothersource};
 console.log(objectu) //spread operator for combining values
  
 console.log(regularuser.hasOwnProperty('fullname'));
+
+console.log()
