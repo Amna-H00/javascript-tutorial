@@ -42,3 +42,18 @@ function details({name , age}) {
     console.log(`Hello , ${name}. You are ${age} years Old`)
 }
 details({name : "zoam" , age : "23"}); //function Parameter ! Destructuring is commonly used in function parameters.
+
+//We can Write JSOn in object and in Arrays.
+
+// {
+// "name" : "kli", 
+// "name" : "kli", 
+// "name" : "kli", 
+// }
+
+[
+    {},
+    {},
+    {}
+]
+
