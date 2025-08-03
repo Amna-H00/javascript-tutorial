@@ -15,6 +15,7 @@ function one (){
 }
 one(); //nested func
 
+//+++++++++++++++++++++++++Interesting +++++++++++++++++++++++++++//
 
 function addone(num){
     return num + 1
