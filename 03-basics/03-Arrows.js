@@ -32,4 +32,24 @@
  }
 
  //Arrow function
+ //1-
+//  const addTwo = (num1 , num2) => {
+//    return num1 + num2 
+//  }
+
+ //2-
+ //const addTwo = (num1 , num2) => num1 + num2 
+
+//3-
+ const addTwo = (num1 , num2) => (num1 + num2 )
+//console.log(addTwo(5,6));
+ //4-
+ const addTw = (num1 , num2) => ({username : "Aliana"})
+console.log(addTw(5,6)); //undefined cz objects cant returned for returning we wrap it in () 
+ 
+
+
+
+
+
  
