@@ -1,0 +1,1 @@
+ //a truthy value is any value that evaluates to true when used in a Boolean context

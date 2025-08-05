@@ -30,3 +30,20 @@ switch (fruit) {
   default:
     console.log("Unknown fruit");
 }
+
+//summary example of switch 
+const condition = "approvedd";
+switch (condition) {
+case "pending":
+    console.log("Still Pending .....");
+    break;
+case "approved":
+    console.log("Approved!");
+    break;
+case "rejected":
+    console.log("Rejected.");
+    break;
+default:
+    console.log("Unknown Status.");
+    
+}

@@ -1,3 +1,7 @@
+//controlFlow contains:sequential (operators) conditionals (if,else,if-else,switch case) , loops (for , while,do-while) , jump statements (break,continue , return ,goto) , function call , try/catch , throw , error,callbacks 
+
+
+ 
 //OPERATORS:
 //< , >, <= , >= , == , ===(strict equal to chcks datatype), != , &&  , || 
 
