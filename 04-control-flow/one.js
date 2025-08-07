@@ -31,3 +31,26 @@ if (userLoggedIn && debitcard && 2==2) {
 if (LoggedInFromEmail || LoggedInFromGoogle) {
     console.log("User Logged In")
 } //some operators use
+
+
+//Nullish Coalescing Operator (??) : null Undefined
+
+let val1 ;
+// val1 = 5 ?? 10 //5
+// val1 = null ?? 10 //10
+// val1 = undefined ?? 15 //15
+val1 = null ?? 10 ?? 20 //10
+
+console.log(val1)
+
+
+//Ternery Operator: if condition is true it will execute first func 
+
+// condition ? true : false 
+
+const iceTeaPrice = 100;
+iceTeaPrice >= 80 ? console.log("less than 80") : console.log("more than 80")
+
+
+const MoringaTea = 200;
+MoringaTea <= 100 ? console.log("less") : consoel.log("more")
