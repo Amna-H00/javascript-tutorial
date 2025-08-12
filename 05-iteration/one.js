@@ -10,7 +10,7 @@ for (let k = 0; k <= 10; k++) {
   //console.log(element)
 }
 
-//loop inside a loop:
+//loop inside a loop:(nested loop)
 for (let i = 0; i <= 10; i++) {
   //console.log(`Outer loop value ${i}`)
   for (let j = 0; j <= 10; j++) {
