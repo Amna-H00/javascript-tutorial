@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM | Learning -4</title>
+  </head>
+  <body style="background-color: black; color: white">
+    <ul class="language">
+      <li>Javascript</li>
+    </ul>
+  </body>
+  <script>
+    //1- to add element in a list
+    function addlanguage(langname) {
+      const li = document.createElement("li");
+      li.innerHTML = `${langname}`;
+      document.querySelector(".language").appendChild(li);
+    }
+    addlanguage("python");
+    addlanguage("typescript");
+
+    //2- optimized way to add
+    function addOptiLanguage(LangName) {
+      const li = document.createElement("li");
+      //    const addText = document.createTextNode(LangName)
+      //    li.appendChild(addText)
+      li.append(document.createTextNode(LangName));
+      document.querySelector(".language").appendChild(li);
+    }
+    addOptiLanguage("goLang");
+
+    //Edit
+    const secondLang = document.querySelector("li:nth-child(2)");
+    //secondLang.innerHTML = "Mojo" (not a gd approach)
+
+    //2 method to edit
+    const newli = document.querySelector("li");
+    newli.textContent = "MOjo";
+    secondLang.replaceWith(newli);
+
+    //3
+    const firstLang = document.querySelector("li:first-child");
+    firstLang.outerHTML = "<li>TypeScript</li>";
+
+    //remove
+    const lastlang = document.querySelector("li:last-child");
+    lastlang.remove();
+  </script>
+
+  </body>
+</html>
